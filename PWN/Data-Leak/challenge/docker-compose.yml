@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  leak-chars:
+    build: .
+    environment:
+      - PASSWORD=jECikZP5BJjdB0V7vdjAnwcLfWMSVyC
+    ports:
+      - "10003:1337"
+    restart: always
