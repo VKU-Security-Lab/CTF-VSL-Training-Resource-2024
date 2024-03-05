@@ -2,7 +2,11 @@
 
 ## Author
 
+- [lqlong](http://)
+
 ## Description
+
+- The attacker read the flag.txt file while they controlled my computer, can you repeat that?
 
 ## Link Challenge
 

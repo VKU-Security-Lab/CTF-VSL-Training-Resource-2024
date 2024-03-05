@@ -9,3 +9,7 @@
 Admin has left a secret on Discord's server, please find it.
 
 - [https://discord.gg/3GZyGtJ3xN](https://discord.gg/3GZyGtJ3xN)
+
+## First Blood
+
+- 🩸: **vovanbao.1808**

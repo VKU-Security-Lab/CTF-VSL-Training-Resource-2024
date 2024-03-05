@@ -11,4 +11,7 @@
 - Flag format: VSL{that place's website}
 
 - Example: VSL{google.com}
-- 
+
+## First Blood
+
+- 🩸: **embedangiu**

@@ -2,7 +2,11 @@
 
 ## Author
 
+- [lqlong](http://)
+
 ## Description
+
+- oh no the attacker knew not just one but many, do you know what he read the boss is asking me
 
 ## Link Challenge
 

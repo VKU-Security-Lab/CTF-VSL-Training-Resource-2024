@@ -5,3 +5,7 @@
 ## Description
 
 - Popular RSA = easy to break 🥷
+
+## First Blood
+
+- 🩸: **vovanbao.1808**

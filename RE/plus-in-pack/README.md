@@ -7,3 +7,7 @@
 ## Description
 
 - I threw my Code into the Backpack so you can't see it =))
+
+## First Blood
+
+- 🩸: **nnmp**

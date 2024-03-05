@@ -2,7 +2,13 @@
 
 ## Author
 
+- [lqlong](http://)
+
 ## Description
+
+- Do you know the user and password of my computer?
+
+- Flag format: VSL{password}
 
 ## Link Challenge
 

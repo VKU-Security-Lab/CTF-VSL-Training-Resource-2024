@@ -2,7 +2,11 @@
 
 ## Author
 
+- [lqlong](http://)
+
 ## Description
+
+- This level has 6 mini challenges
 
 ## Link Challenge
 

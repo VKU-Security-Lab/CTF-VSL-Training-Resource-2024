@@ -13,3 +13,7 @@ Flag format: VSL{The_full_name_of_the_place-city in lowercase English}
 Example: VSL{sydney_opera_house-sydney}
 
 Nếu bí quá thì xem HINT ở đây 😉 [HINT](https://www.tiktok.com/@nam_cha_b/video/6917895401307770113)
+
+## First Blood
+
+- 🩸: **embedangiu**
