@@ -7,15 +7,19 @@
 
 ##
 
-Trong mã nguồn của file challenge, ta thấy có 1 function encode như sau:
+Dựa theo vào mã nguồn của challenge, ta có thể hỉểu được thuật toán mã hóa của bài này như sau:
 
-```python
-    def encode(message):
-        return hex(bytes_to_long(b64encode(message)))
-```
+- Base64 : Flag ban đầu được mã hóa sử dụng thuật toán Base64 để chuyển đổi từ dữ liệu nhị phân sang dạng văn bản ASCII. Kết quả là một chuỗi ký tự Base64.
 
-> Mã hóa của bài này chính là: Mã hóa base64 flag đầu tiên, sau đó là mã hóa tiếp sang dạng hex, sau đó ghi vào file output.txt  
-> Muốn giải được thử thách này, ta lấy nội dung file output.txt chuyển từ dạng hex sang chuỗi ASCII, sau đó giải mã base64 sẽ ra được flag
+- Chuyển sang dạng hex: Chuỗi Base64 từ bước trước sau đó được chuyển đổi sang dạng hex. Mỗi ký tự trong chuỗi Base64 sẽ được chuyển đổi thành hai ký tự trong hệ thập lục phân.
+
+- Ghi vào file output.txt: Chuỗi hex từ bước trước sau đó được ghi vào một file văn bản có tên là "output.txt".
+
+Từ đó, ta có thể giải mã lại như sau:
+
+- Đọc từ file output.txt và chuyển từ dạng hex sang ASCII: Nội dung của file "output.txt" được đọc và chuyển đổi từ dạng hex sang dạng chuỗi ASCII. Điều này đảm bảo ta có được chuỗi gốc được mã hóa.
+
+- Giải mã Base64: Chuỗi ASCII thu được từ bước trước sau đó được giải mã từ Base64 để lấy ra flag ban đầu.
 
 ## Flag
 

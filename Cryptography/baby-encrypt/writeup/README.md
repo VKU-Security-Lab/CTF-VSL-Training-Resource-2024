@@ -19,31 +19,38 @@ Trong mã nguồn của file challenge, ta thấy có 1 function encode như sau
             return bytes(ct)
 ```
 
-> Dưới đây là một phân tích về cách mã hóa hoạt động:
-
-- Hàm encryption(msg) nhận vào một chuỗi msg cần được mã hóa.
-- Mã hóa được thực hiện theo cách tính toán mới cho từng ký tự trong chuỗi msg.
-- Vòng lặp duyệt qua từng ký tự char trong chuỗi msg.
-- Đối với mỗi ký tự char, nó sẽ thực hiện phép tính (123 \* char + 18) % 256:
-  - Đầu tiên, nó nhân ký tự char với 123.
-  - Sau đó, cộng thêm 18.
-  - Kết quả của phép tính này sau đó được chia lấy phần dư cho 256.
-  - Kết quả của phép tính này được thêm vào mảng ct.
-- Kết quả của mảng ct sau đó được trả về dưới dạng một đối tượng bytes.
-  Tiếp theo, trong file chall có tạo ra một file msg.enc với nhiệm vụ là ghi nội dung đã được mã hóa ở `function encryption` dưới dạng hex 2.
-
 ##
 
-> Lời giải:
+> Phân tích cách mã hóa:
 
-Bước 1: Chuyển đổi từ Hex sang Byte  
-Trước tiên, chúng ta cần chuyển đổi dữ liệu từ tệp msg.enc từ dạng hex sang dạng byte.  
-Bước 2: Tìm Nghịch Đảo Nhân  
-Tiếp theo, chúng ta cần tìm giá trị nghịch đảo của biểu thức 123 \* i % 256, trong đó i là số từ 1 đến 256. Để làm điều này, chúng ta sẽ thực hiện một vòng lặp từ 1 đến 256 và kiểm tra điều kiện đã cho.  
-Bước 3: Giải Mã Từng Ký Tự  
-Cuối cùng, chúng ta sẽ giải mã từng ký tự trong dữ liệu đã chuyển đổi bằng cách sử dụng phép tính i \* (char−18) mod 256, trong đó i là nghịch đảo nhân đã tìm được ở bước trước và char là giá trị của ký tự cần giải mã.
+1. Hàm Encryption(msg): Nhận một chuỗi msg cần được mã hóa.
+2. Mã hóa:
 
-[Code Solve](/Cryptography/baby-encrypt/writeup/sol.py)
+- Mỗi ký tự trong chuỗi msg được mã hóa theo một cách tính toán đặc biệt.
+- Duyệt qua từng ký tự char trong chuỗi msg.
+- Với mỗi ký tự char:
+  - Thực hiện phép tính (123 \* char + 18) % 256:
+  - Nhân ký tự char với 123.
+  - Cộng thêm 18.
+  - Lấy phần dư khi chia cho 256.
+  - Kết quả của phép tính được thêm vào mảng ct.
+
+3. Kết quả:
+
+- Mảng ct chứa kết quả của việc mã hóa.
+- Kết quả được trả về dưới dạng một đối tượng bytes.
+
+4. File msg.enc:
+
+- Tạo một file msg.enc chứa nội dung đã mã hóa ở function encryption dưới dạng hex.
+
+Lời giải:
+
+1. Chuyển đổi từ Hex sang Byte: Chuyển đổi dữ liệu từ file msg.enc từ dạng hex sang dạng byte.
+2. Tìm Nghịch Đảo Nhân: Tìm giá trị nghịch đảo của biểu thức 123 \_ i % 256, trong đó i từ 1 đến 256.
+3. Giải Mã Từng Ký Tự: Giải mã từng ký tự trong dữ liệu đã chuyển đổi bằng cách sử dụng phép tính i \_ (char - 18) mod 256, với i là nghịch đảo nhân đã tìm được và char là giá trị của ký tự cần giải mã.
+4. Solve
+   [Code Solve](/Cryptography/baby-encrypt/writeup/sol.py)
 
 ## Flag
 
