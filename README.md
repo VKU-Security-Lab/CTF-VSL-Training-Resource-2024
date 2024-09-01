@@ -28,13 +28,13 @@ This repository contains official **source code** and **writeups** for the major
 
 ## Cryptography
 
-| Name                                                       | Author           | Solves |
-| ---------------------------------------------------------- | ---------------- | ------ |
-| [Ancient Crypto](Cryptography/ancient-crypto/)             | mrb1n            | 10     |
-| [Baby Encrypt](Cryptography/baby-encrypt/)                 | mrb1n            | 0      |
-| [Time Travel](Cryptography/time-travel/)                   | mrb1n            | 0      |
-| [Trust Uself](Cryptography/trust-urself/)                  | mrb1n            | 0      |
-| [Weak RSA](Cryptography/weak-rsa/)                         | mrb1n            | 1      |
+| Name                                                       | Author            | Solves |
+| ---------------------------------------------------------- | ----------------- | ------ |
+| [Ancient Crypto](Cryptography/ancient-crypto/)             | shr3wd            | 10     |
+| [Baby Encrypt](Cryptography/baby-encrypt/)                 | shr3wd            | 0      |
+| [Time Travel](Cryptography/time-travel/)                   | shr3wd            | 0      |
+| [Trust Uself](Cryptography/trust-urself/)                  | shr3wd            | 0      |
+| [Weak RSA](Cryptography/weak-rsa/)                         | shr3wd            | 1      |
 
 ## Forensics
 
@@ -63,13 +63,13 @@ This repository contains official **source code** and **writeups** for the major
 
 ## Binary Exploitation
 
-| Name                                                       | Author           | Solves |
-| ---------------------------------------------------------- | ---------------- | ------ |
-| [ASM Machine](PWN/asm-machine/)                            | mrb1n            | 0      |
-| [Beef Stack](PWN/beef-stack/)                              | mrb1n            | 0      |
-| [Data Leak](PWN/Data-Leak/)                                | mrb1n            | 0      |
-| [Newbie PWN](PWN/n3wb1e-pwn/)                              | mrb1n            | 0      |
-| [Ret2Win 2](PWN/ret2win-2/)                                | mrb1n            | 0      |
+| Name                                                       | Author            | Solves |
+| ---------------------------------------------------------- | ----------------- | ------ |
+| [ASM Machine](PWN/asm-machine/)                            | shr3wd            | 0      |
+| [Beef Stack](PWN/beef-stack/)                              | shr3wd            | 0      |
+| [Data Leak](PWN/Data-Leak/)                                | shr3wd            | 0      |
+| [Newbie PWN](PWN/n3wb1e-pwn/)                              | shr3wd            | 0      |
+| [Ret2Win 2](PWN/ret2win-2/)                                | shr3wd            | 0      |
 
 ## Reverse Engineer
 
@@ -102,9 +102,9 @@ This repository contains official **source code** and **writeups** for the major
 
 | Name                                                       | Author           | Solves |
 | ---------------------------------------------------------- | ---------------- | ------ |
-| [Welcome Challenge](Misc/WelcomeChallenge/)                | lqlong           | 14     |
-| [Where Am I](Misc/WhereAmI/)                               | lqlong           | 10     |
-| [Catch Me If You Can](Misc/CatchMeIfYouCan/)               | lqlong           | 9      |
+| [Welcome Challenge](Misc/WelcomeChallenge/)                | shr3wd           | 14     |
+| [Where Am I](Misc/WhereAmI/)                               | shr3wd           | 10     |
+| [Catch Me If You Can](Misc/CatchMeIfYouCan/)               | shr3wd           | 9      |
 
 ---
 
